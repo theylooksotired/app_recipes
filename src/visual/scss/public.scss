@@ -1,0 +1,458 @@
+@import "normalize";
+@import "variables";
+@import "icons";
+@import "mixins";
+
+body,
+html {
+	font-family: $fontFamily;
+}
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	background: rgba($white, 0.9);
+	color: $white;
+	width: 100%;
+	border-bottom: 1px solid darken($white, 15%);
+	.headerBase {
+		padding: 5px;
+		@include clearer();
+		.headerBaseLeft {
+			width: 100px;
+			float: left;
+		}
+		.headerBaseRight {
+			width: 120px;
+			float: right;
+		}
+		.formSearch {
+			width: 100%;
+			position: relative;
+			input {
+				width: 100%;
+				border: 0;
+				padding: 5px 35px 5px 5px;
+				line-height: 20px;
+				font-size: $fontSizeSmall;
+				font-family: $fontFamily;
+				background: $white;
+				color: $colorMain;
+				outline: none !important;
+				@include borderRadius(3px);
+				&:focus {
+					background: darken($white, 5%);
+				}
+			}
+			.buttonSearch {
+				position: absolute;
+				top: 0;
+				right: 3px;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				font-size: 20px;
+				float: right;
+				color: rgba($colorMain, 0.7);
+				text-align: right;
+				cursor: pointer;
+			}
+		}
+		.buttonBack {
+			@include clearer;
+			i,
+			span {
+				display: block;
+				float: left;
+				line-height: 30px;
+				height: 30px;
+			}
+			i {
+				font-size: 20px;
+				padding: 0 5px 0 0;
+				color: rgba($colorMain, 0.4);
+			}
+			span {
+				font-size: 16px;
+				color: rgba($colorMain, 0.5);
+			}
+		}
+	}
+}
+
+.page {
+	position: fixed;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: calc(100vh - 40px);
+	overflow: auto;
+	background: $colorMainAlt;
+}
+
+.categoryIntro {
+	display: block;
+	margin: 10px;
+	color: $white;
+	background: rgba($colorMain, 0.4);
+	cursor: pointer;
+	@include borderRadius(3px);
+	&.categoryIntro-1 {
+		background: $color-1;
+	}
+	&.categoryIntro-2 {
+		background: $color-2;
+	}
+	&.categoryIntro-3 {
+		background: $color-3;
+	}
+	&.categoryIntro-4 {
+		background: $color-4;
+	}
+	&.categoryIntro-5 {
+		background: $color-5;
+	}
+	&.categoryIntro-6 {
+		background: $color-6;
+	}
+	&.categoryIntro-7 {
+		background: $color-7;
+	}
+	&.categoryIntro-8 {
+		background: $color-8;
+	}
+	.categoryIntroName {
+		padding: 5px 10px;
+		font-weight: bold;
+	}
+	.categoryIntroRecipes {
+		padding: 3px;
+		background: rgba($white, 0.1);
+		font-size: $fontSizeTiny * 8 / 10;
+		color: rgba($white, 0.8);
+		text-align: right;
+		strong {
+			display: inline-block;
+			padding: 0 5px 0 0px;
+		}
+		span {
+			display: inline-block;
+		}
+	}
+}
+
+.recipe {
+	margin: 0 0 3px;
+	.recipeIns {
+		padding: 15px 10px;
+		background: $white;
+		@include clearer();
+		.recipeInfo {
+			width: calc(100% - 40px);
+			float: left;
+			.recipeInfoName {
+				font-weight: bold;
+				padding: 0 0 3px;
+				color: darken($white, 70%);
+			}
+		}
+		> i {
+			width: 40px;
+			float: right;
+			text-align: right;
+			font-size: 25px;
+			color: darken($white, 20%);
+		}
+	}
+}
+
+.recipeComplete {
+	background: $white;
+	padding: 20px 10px;
+	margin: 10px 0 0 0;
+	.recipeTop {
+		text-align: center;
+		.recipeTitle {
+			color: $colorMain;
+			font-weight: bold;
+			padding: 0 0 10px;
+			font-size: $fontSizeBig;
+		}
+		.recipeDescription {
+			font-weight: normal;
+			font-size: $fontSizeTiny;
+			line-height: 1.2em;
+			color: darken($white, 40%);
+		}
+		.stars {
+			padding: 0 0 10px;
+			text-align: center;
+			.star {
+				margin: 0 1px;
+				float: none;
+				display: inline-block;
+			}
+		}
+	}
+	.recipeBottom {
+		margin: 10px 0 0 0;
+		color: lighten($black, 30%);
+		line-height: 1.5em;
+		h2 {
+			font-size: $fontSizeBig * 6 / 10;
+			font-weight: normal;
+			padding: 0 0 5px;
+			margin: 0 0 15px;
+			position: relative;
+			color: lighten($colorMain, 10%);
+			text-align: center;
+			text-transform: uppercase;
+			&:after {
+				width: 60px;
+				height: 2px;
+				background: $colorAccentAlt;
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+		}
+		.recipeIngredients {
+			p {
+				margin: 0;
+				padding: 0;
+			}
+		}
+		.recipePreparation {
+			padding: 30px 0 0 0;
+		}
+		.recipeInfo {
+			ol,
+			ul {
+				margin: 0 20px;
+				padding: 20px 0;
+				li {
+					padding: 5px 0;
+				}
+			}
+		}
+	}
+}
+
+.related {
+	padding: 40px 0 0 0;
+	.relatedTitle {
+		font-size: $fontSizeBig * 6 / 10;
+		font-weight: bold;
+		padding: 40px 0 5px;
+		margin: 0 0 70px;
+		position: relative;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+		&:after {
+			width: 60px;
+			height: 2px;
+			background: $colorAccentAlt;
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+}
+
+.stars {
+	@include clearer();
+	.star {
+		margin: 0 1px 0;
+		font-size: $fontSizeTiny * 7 / 10;
+		float: left;
+		.icon-star-full {
+			color: $colorAccentAlt;
+		}
+		.icon-star-empty {
+			color: darken($white, 30%);
+		}
+	}
+}
+
+.head {
+	background: $colorAccent;
+	padding: 10px;
+	color: $white;
+	text-align: center;
+	@include clearer();
+	i {
+		width: 60px;
+		float: left;
+		text-align: left;
+		line-height: 40px;
+		font-size: 35px;
+		color: rgba($white, 0.6);
+		border-right: 3px solid rgba($white, 0.3);
+	}
+	.headInfo {
+		width: calc(100% - 65px);
+		float: right;
+	}
+	.headTitle {
+		text-align: center;
+		font-size: $fontSizeBig * 6 / 10;
+		color: rgba($white, 0.8);
+	}
+	.headSubtitle {
+		font-weight: bold;
+		font-size: $fontSizeBig;
+	}
+	&.head-inside {
+		background: $colorMain;
+	}
+}
+
+.searchResults {
+	position: fixed;
+	top: 40px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: calc(100vh - 45px);
+	overflow: auto;
+	background: darken($white, 5%);
+	z-index: 9999;
+	.searchResultsListEmpty {
+		padding: 10px;
+		background: darken($white, 5%);
+		color: darken($white, 50%);
+		text-align: center;
+		font-size: $fontSizeTiny;
+	}
+}
+
+.recipeSearch {
+	@include clearer();
+	.recipeSearchInfo {
+		width: calc(100% - 30px);
+		float: left;
+		padding: 5px 10px;
+		font-size: $fontSizeSmall;
+		border-bottom: 2px solid darken($white, 10%);
+		color: darken($white, 70%);
+		font-weight: bold;
+		.recipeCategoryName {
+			font-size: $fontSizeTiny * 8 / 10;
+			padding: 0 0 1px;
+			font-weight: normal;
+		}
+	}
+	i {
+		width: 30px;
+		float: right;
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+		text-align: right;
+		color: darken($white, 30%);
+	}
+}
+
+.recipeCompleteTitle {
+	@include clearer();
+	background: darken($white, 5%);
+	padding: 10px;
+	margin: 10px -10px 20px -10px;
+	i {
+		width: 60px;
+		float: left;
+		text-align: center;
+		line-height: 40px;
+		font-size: 35px;
+		color: rgba($black, 0.6);
+		border-right: 3px solid rgba($black, 0.1);
+	}
+	span {
+		display: block;
+		width: calc(100% - 65px);
+		float: right;
+		color: rgba($black, 0.8);
+		text-align: center;
+		font-weight: bold;
+		padding: 5px 0 0 0;
+	}
+}
+.recipeServings,
+.recipeTime {
+	font-size: $fontSizeSmall;
+	text-align: center;
+	i {
+		display: inline-block;
+		padding: 0 5px 0 0;
+		width: 25px;
+		height: 25px;
+		font-size: 15px;
+		line-height: 25px;
+		color: darken($white, 90%);
+	}
+	span {
+		display: inline-block;
+		line-height: 25px;
+		color: darken($white, 40%);
+	}
+}
+
+@for $i from 1 through 8 {
+	.pages-#{$i} {
+		.page {
+			background: nth($colors, $i);
+			.head-inside {
+				background: nth($colors, $i);
+			}
+		}
+		.recipeComplete {
+			.recipeTop {
+				.recipeTitle {
+					color: nth($colors, $i);
+				}
+			}
+		}
+		.recipeCompleteTitle {
+			background: rgba(nth($colors, $i), 0.05);
+			i {
+				color: rgba(nth($colors, $i), 0.6);
+				border-right: 3px solid rgba(nth($colors, $i), 0.1);
+			}
+			span {
+				color: rgba(nth($colors, $i), 0.8);
+			}
+		}
+	}
+	.recipeCategoryName-#{$i} {
+		color: nth($colors, $i) !important;
+	}
+}

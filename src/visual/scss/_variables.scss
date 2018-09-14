@@ -1,0 +1,81 @@
+$white: #FFF;
+$black: #000;
+
+$colorText: #333;
+$colorTextAlt: #555;
+
+$colorMain: #006699;
+$colorMainAlt: #99CB6A;
+$colorAccent:  #ef352b;
+$colorAccentAlt: #ffb703;
+
+$colorActive: #29C74D;
+$colorNotActive: #818181;
+
+$colorMessage: #38B0A6;
+$colorMessageAlert: #FFB823;
+$colorMessageError: #FF3030;
+
+$colorError: #FD3535;
+$colorAccept: #15BA45;
+$colorNeutral: #666;
+
+$colorFacebook: #3b5998;
+$colorTwitter: #4099FF;
+$colorYoutube: #e52d27;
+$colorLinkedin: #4875B4;
+$colorVimeo: #162221;
+$colorInstagram: #517fa4;
+
+$color-1: #2980B9;
+$color-2: #f94b58;
+$color-3: #ff7416;
+$color-4: #fec606;
+$color-5: #C94769;
+$color-6: #329eb6;
+$color-7: #47c9af;
+$color-8: #71ba71;
+$colors: $color-1, $color-2, $color-3, $color-4, $color-5, $color-6, $color-7, $color-8;
+
+$fontFamily: 'Open Sans', sans-serif;
+
+$sizeDesktop: 1200px;
+$sizeTablet: 800px;
+$sizeMobile: 380px;
+
+$zIndexHigh: 9999;
+$zIndexMedium: 9998;
+$zIndexNormal: 9997;
+$zIndexLow: 9996;
+
+$fontSizeNormal: 1rem;
+$fontSizeSmall: 0.9rem;
+$fontSizeTiny: 0.8rem;
+$fontSizeBig: 1.4rem;
+$fontSizeLarge: 1.8rem;
+$fontSizeHuge: 2rem;
+
+$zIndex: 1000;
+$zIndexHigh: 1001;
+$zIndexHighest: 1002;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans800.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}

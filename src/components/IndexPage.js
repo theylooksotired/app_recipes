@@ -21,6 +21,9 @@ class IndexPage extends React.Component {
         this.handleSearch = this.handleSearch.bind(this);
     }
 
+    componentDidMount() {
+        //document.addEventListener("backbutton", this.goBack(), false);
+    }
 
     changeCategory(category) {
         this.setState({layout: 'categories', categoryActive: category, search: '', searchRecipes: []});

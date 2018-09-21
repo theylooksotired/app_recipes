@@ -3,6 +3,8 @@
     <name>Recetas de cocina uruguaya</name>
     <description>Deliciosas recetas de comida y cocina tipica uruguaya. Las recetas de la comida y cocina de Uruguay son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
+    <preference name="android-minSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="26" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />

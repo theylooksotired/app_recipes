@@ -2,6 +2,12 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const exec = require('child_process').exec;
 
+// APP id: 3302785
+// ANDROID KEY
+// pgb unlock android 132896
+// pgb clone 3302785
+// pgb download 3302785 android
+
 let apps = [{country: 'Uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'}];
 
 for (let i=0; i < apps.length; i++) {
@@ -46,6 +52,13 @@ for (let i=0; i < apps.length; i++) {
 				console.log('===============');
 				console.log('===============');
 				console.log('BUILT');
+				exec('git add -A && git commit -m "New version" && git push origin master', function(err, stdout, stderr) {
+					if (err) return console.log(err);
+					else console.log(stdout);
+					console.log('===============');
+					console.log('===============');
+					console.log('UPLOADED TO GIT');
+				});
 			});
 		});
 }

@@ -36,7 +36,7 @@ for (let i=0; i < apps.length; i++) {
 				let result = data;
 				result = result.replace(/APP_TITLE/g, json.site.title);
 				result = result.replace(/APP_DESCRIPTION/g, json.site.description);
-				result = result.replace(/APP_VERSION/g, '4.0.1');
+				result = result.replace(/APP_VERSION/g, '4.0.2');
 				result = result.replace(/APP_ID/g, json.site.id);
 				fs.writeFile('config.xml', result, 'utf8', function (err) {
 					if (err) return console.log(err);
@@ -58,7 +58,8 @@ for (let i=0; i < apps.length; i++) {
 					console.log('===============');
 					console.log('===============');
 					console.log('UPLOADED TO GIT');
-					exec('pgb clone 3302785 && pgb download 3302785 android releases/', function(err, stdout, stderr) {
+					exec('pgb clone 3302785', function(err, stdout, stderr) {
+						console.log(1);
 						if (err) return console.log(err);
 						else console.log(stdout);
 						console.log('===============');

@@ -7,7 +7,8 @@ const exec = require('child_process').exec;
 // pgb unlock android 132896
 // pgb clone 3302785 && pgb download 3302785 android
 
-let apps = [{country: 'Uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'}];
+let apps = [{country: 'Uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
+			{country: 'Colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'}];
 
 for (let i=0; i < apps.length; i++) {
 	let urlFetch = apps[i].url;
@@ -57,6 +58,13 @@ for (let i=0; i < apps.length; i++) {
 					console.log('===============');
 					console.log('===============');
 					console.log('UPLOADED TO GIT');
+					exec('pgb clone 3302785 && pgb download 3302785 android releases/', function(err, stdout, stderr) {
+						if (err) return console.log(err);
+						else console.log(stdout);
+						console.log('===============');
+						console.log('===============');
+						console.log('SAVED THE BUILT VERSION');
+					});
 				});
 			});
 		});

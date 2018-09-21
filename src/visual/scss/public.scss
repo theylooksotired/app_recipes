@@ -260,6 +260,18 @@ html {
 				}
 			}
 		}
+		.recipeInfoIngredients {
+			p {
+				padding: 0 0 3px;
+				@include clearer();
+				i {
+					float: left;
+					padding: 10px 5px 0 0;
+					color: darken($white, 10%);
+					font-size: $fontSizeTiny * 6 / 10;
+				}
+			}
+		}
 	}
 }
 

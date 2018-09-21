@@ -66,11 +66,11 @@ class RecipeUi extends React.Component {
                                     {this.renderStars()}
                                     <div className="recipeServings">
                                         <i className="icon icon-serving"/>
-                                        <span>{this.state.recipe.servings || '4'} personas</span>
+                                        <span>{this.state.recipe.numPersons || '4'} personas</span>
                                     </div>
                                     <div className="recipeTime">
                                         <i className="icon icon-clock"/>
-                                        <span>{this.state.recipe.time || '30 minutos'}</span>
+                                        <span>{this.state.recipe.preparationTime || '30 minutos'}</span>
                                     </div>
                                 </div>
                                 <div className="recipeBottom">
@@ -79,7 +79,12 @@ class RecipeUi extends React.Component {
                                             <i className="icon icon-ingredients"/>
                                             <span>Ingredientes</span>
                                         </div>
-                                        <div className="recipeInfo" dangerouslySetInnerHTML={{__html: this.state.recipe.ingredients}}/>
+                                        <div className="recipeInfo recipeInfoIngredients">
+                                            {this.state.recipe.ingredients.map(item => <p>
+                                                                                            <i className="icon icon-arrow-right"/>
+                                                                                            <span>{item}</span>
+                                                                                        </p>)}
+                                        </div>
                                     </div>
                                     <div className="recipePreparation">
                                         <div className="recipeCompleteTitle">

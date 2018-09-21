@@ -10,22 +10,5 @@
     <body>
         <div id="main"></div>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript">
-            function initApp() {
-                if (AdMob) {
-                    AdMob.createBanner({
-                        adId : "ca-app-pub-7429223453905389\/9876723402",
-                        position : AdMob.AD_POSITION.TOP_CENTER,
-                        autoShow : true
-                    });
-                    AdMob.prepareInterstitial({
-                        adId : "ca-app-pub-7429223453905389\/3830189809",
-                        autoShow : true
-                    });
-                    AdMob.showInterstitial();
-                }
-            }
-            document.addEventListener('deviceready', initApp, false);
-        </script>
     </body>
 </html>

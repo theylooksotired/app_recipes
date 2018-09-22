@@ -45,7 +45,7 @@ if (app.country) {
                 let result = data;
                 result = result.replace(/APP_TITLE/g, json.site.title);
                 result = result.replace(/APP_DESCRIPTION/g, json.site.description);
-                result = result.replace(/APP_VERSION/g, '4.0.5');
+                result = result.replace(/APP_VERSION/g, '4.0.6');
                 result = result.replace(/APP_ID/g, json.site.id);
                 fs.writeFile('config.xml', result, 'utf8', function (err) {
                     if (err) return console.log(err);

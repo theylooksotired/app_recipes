@@ -67,6 +67,7 @@ if (app.country) {
                     console.log('===============');
                     console.log('===============');
                     console.log('UPLOADED TO GIT');
+                    /*
                     exec('pgb clone 3302785 && pgb download 3302785 android releases/', function(err, stdout, stderr) {
                         if (err) return console.log(err);
                         else console.log(stdout);
@@ -74,6 +75,7 @@ if (app.country) {
                         console.log('===============');
                         console.log('SAVED THE BUILT VERSION');
                     });
+                    */
                 });
             });
         });

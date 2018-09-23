@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinauruguaya" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.plasticwebs.cocinacolombiana" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="StatusBar">
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
@@ -8,8 +8,8 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Recetas de cocina uruguaya</name>
-    <description>Deliciosas recetas de comida y cocina tipica uruguaya. Las recetas de la comida y cocina de Uruguay son sencillas y faciles de preparar.</description>
+    <name>Recetas de cocina colombiana</name>
+    <description>Deliciosas recetas de comida y cocina tipica colombiana. Las recetas de la comida y cocina de Colombia son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <icon src="www/icon.png" />

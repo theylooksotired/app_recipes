@@ -136,8 +136,8 @@
       "description": "La caipiriña es una bebida popular en muchos países del cono sur de América. No importa a cual bar entres, puedes estar seguro de que te servirán un caipiriña si lo deseas, el asunto es que las recetas varían e, incluso, los métodos de preparación. No es igual en Uruguay, donde la Caipiriña tiene una historia: se ha preparado desde hace muchos años y una bebida más que popular, oficial, del país. La cercanía con su país fronterizo Brasil, hace que las recetas que se crearon a uno u otro lado de la frontera, se compartan casi sin que se noten las diferencias de nacionalidad.",
       "ingredients": [
         "5,0 cl. Cachaza",
-        "1/2 Lim&oacute;n",
-        "2 ctas. de az&uacute;car",
+        "1/2 Limón",
+        "2 ctas. de azúcar",
         "Hielo"
       ],
       "preparation": "<ol>\r\n\t<li>Dispón de un cristal.</li>\r\n\t<li>Machaca el limón con el azúcar en un mortero. </li>\r\n\t<li>Mezcla los ingredientes y bate suavemente con una pajita o sorbete. </li>\r\n\t<li>Decora con una rodaja de limón.</li>\r\n</ol>"
@@ -155,11 +155,11 @@
       "ingredients": [
         "2 zanahorias",
         "1 cebolla",
-        "&frac12; apio",
+        "½ apio",
         "1 puerro",
-        "&frac12; calabac&iacute;n o &frac14; zapallo",
+        "½ calabacín o ¼ zapallo",
         "2 tomates",
-        "1 &frac12; l de agua",
+        "1 ½ l de agua",
         "sal",
         "pimienta"
       ],
@@ -434,7 +434,7 @@
       "description": "Uruguay es un país cuya densidad de población joven se haya en pleno crecimiento. Un país dedicado a la agricultura y el cultivo de viñedos, pues es el vino una de sus principales actividades económicas. Esa característica de país de ciudadanos en su mayoría adultos, hace que los gustos por las bebidas sean muy variados. Y es precisamente esa creciente población joven, que enfoca sus esfuerzos en nuevas actividades comerciales y de entretenimiento, impulsan la coctelería y la producción de bebidas con alcohol, logrando que sean cada vez más populares los tragos como el corazón de indio y cada vez más aceptado por todos.",
       "ingredients": [
         "25 cc de ron dorado",
-        "20 cc de co&ntilde;ac",
+        "20 cc de coñac",
         "25 cc de un buen whisky",
         "10 cc de licor de crema de cacao",
         "Hielo a gusto"
@@ -454,8 +454,8 @@
       "ingredients": [
         "1 1/2 Oz de Vodka",
         "1/2 Oz de Triple sec",
-        "2 Oz de jugo de Ar&aacute;ndano",
-        "Jugo de 1/6 de lim&oacute;n"
+        "2 Oz de jugo de Arándano",
+        "Jugo de 1/6 de limón"
       ],
       "preparation": "<ol>\r\n\t<li>Dispón de una coctelera.</li>\r\n\t<li>Incorpora hielo a la coctelera.</li>\r\n\t<li>Vierte el Vodka.</li>\r\n\t<li>Procede con el triple sec.</li>\r\n\t<li>Agrega el jugo de limón.</li>\r\n\t<li>Agita fuertemente por unos cuantos segundos.</li>\r\n\t<li>Sirve con un colador sobre una copa de coctel enfríada previamente.</li>\r\n</ol>"
     },
@@ -555,16 +555,16 @@
       "preparationTime": "",
       "description": "El ensopado uruguayo es una comida típica de los campos uruguayos, se trata de una sopa de verduras, con carne o pollo dependiendo del gusto de quien la prepare, de cualquier manera debe tener fideos o pasta, preferiblemente en dedales, es este el elemento más característico del popular ensopado. Es muy popular al sur de Uruguay, suele comerse para calentar el cuerpo en invierno, ya que es ideal para combatir el frío. Puede ser tu especialidad del fin de semana, prepararlo es muy sencillo.",
       "ingredients": [
-        "3&nbsp;papas",
-        "1/2&nbsp;zanahoria",
-        "1/2&nbsp;cebolla",
+        "3 papas",
+        "1/2 zanahoria",
+        "1/2 cebolla",
         "300 gr de carne o Pollo a gusto",
-        "1/2 piment&oacute;n",
-        "100 grs&nbsp;panceta o tocino",
-        "1&nbsp;puerro",
+        "1/2 pimentón",
+        "100 grs panceta o tocino",
+        "1 puerro",
         "salsa de tomate a gusto",
         "sal y pimienta a gusto",
-        "1&nbsp;de pizca de az&uacute;car",
+        "1 de pizca de azúcar",
         "fideos de preferencia dedales"
       ],
       "preparation": "<ol card-sm=\"\" data-behavior=\"sortable\" data-record-list=\"  <li class=\" numbered-list__item=\"\" step=\"\">\r\n\t<li>Pica la cebolla y el pimentón, fríelo en aceite. Agrégale la panceta, y la carne o el pollo</li>\r\n\t<li>Agrégale la salsa de tomate cuando la cebolla esté dorado.</li>\r\n\t<li>Cuando esté todo cocido agrega agua y la demás verduras.</li>\r\n\t<li>Cuando la verdura esté super blanda, incluso algunos trozos se hayan disuelto en el caldo, agrega los fideos y cuando estén prontos deja reposar y servir.</li>\r\n\t<li>Se puede agregar orégano, adobo, caldos, picante, etc</li>\r\n</ol>"
@@ -618,9 +618,9 @@
       "preparationTime": "",
       "description": "La garrapiñada es una golosina muy popular en el Uruguay, se trata de un snack dulce elaborado con maní confitado. En este país puedes encontrarlo por doquier, en puestos callejeros, en partidos de fútbol, plazas públicas, recitales, teatros, suelen ser vendidas en bolsitas de nylon, sobre todo en temporada de invierno, por su alto contenido calórico. Su nombre deriva de la palabra “garapiñar” que es cuando una golosina es bañada en almíbar hasta que se formen grumos. Aunque originalmente se hace con maní, también existen sus variantes con otros frutos secos.",
       "ingredients": [
-        "2 tazas de az&uacute;car",
+        "2 tazas de azúcar",
         "1 taza de agua",
-        "2 tazas de man&iacute; crudo",
+        "2 tazas de maní crudo",
         "2 cucharadas chicas de extracto de vainilla"
       ],
       "preparation": "<ol>\r\n\t<li>Coloca todos los ingredientes juntos dentro de la olla sobre fuego fuerte revolviendo con una cuchara de madera sin cesar en ningún momento.</li>\r\n\t<li>Una vez que se está espesando, es que se están empenzando a formar las garrapiñadas, por lo que es momento de bajar el fuego al mínimo.</li>\r\n\t<li>Cuando adquiere un color marrón claro o ámbar está listo. Al quitar las garrapiñadas de la olla conviene esparcirlas en una fuente para que no se peguen.</li>\r\n</ol>"
@@ -798,9 +798,9 @@
       "preparationTime": "",
       "description": "El Arazá es una fruta muy común en Uruguay que se extiende por todo el Brasil y parte de Paraguay. Una fruta dulce de un volumen espeso, un sabor dulce y un tamaño relativamente pequeño. Es popular que se la coma pura, una delicia que a los niños les encanta disfrutar, pues los árboles de Azará se encuentran en toda la región y crecen sin necesidad de muchos cuidados. Un jugo de Azará, para el cual no necesitas ingredientes no conocidos, resulta una elección de jugo muy refrescante que puede beberse para acompañar casi cualquier plato, incluso los tradicionales de la cocina uruguaya.",
       "ingredients": [
-        "Varios araz&aacute;",
+        "Varios arazá",
         "Agua",
-        "Az&uacute;car"
+        "Azúcar"
       ],
       "preparation": "<ol>\r\n\t<li>Lava los azará.</li>\r\n\t<li>Pícalos a la mitad.</li>\r\n\t<li>Ponlos en la licuadora junto con el agua y el azúcar.</li>\r\n\t<li>Cuela el jugo para eliminar residuos.</li>\r\n\t<li>Ponlo a enfríar.</li>\r\n\t<li>Una vez frío, ponle hielo y sírvelo.</li>\r\n</ol>"
     },
@@ -816,7 +816,7 @@
       "description": "El guayabo es un fruto muy común en toda Latinoamérica, no obstante no es de aquellos cotizados o admiramos por su belleza y colorido. Tanto que en muchas ocasiones se lo ha llamado “el fruto invisible”. Siempre presente en nuestras mesas, no importa del país de Suramérica que seamos, siempre que nos guste comer de un modo un tanto tradicional. Uruguay no es la excepción y, en su caso, resulta un jugo muy común y apreciado por su gran sabor y calidad. Bastante popular, al punto de ser parte de los menús más populares y de estar siempre en las mesas de los uruguayos.",
       "ingredients": [
         "4 guayabas medianas",
-        "1/2 taza de az&uacute;car",
+        "1/2 taza de azúcar",
         "Agua",
         "Cubitos de hielo (opcionales)"
       ],
@@ -853,7 +853,7 @@
         "3 dientes de ajo picado",
         "3/4 tazas de aceite",
         "1 taza de vinagre de alcohol",
-        "Sal, pimienta y aj&iacute; molido"
+        "Sal, pimienta y ají molido"
       ],
       "preparation": "<ol>\r\n\t<li>Hierve la lengua por 2 horas con ramitas de romero, tomillo y laurel, hasta que esté blanda.</li>\r\n\t<li>Deja enfriar dentro del agua, cuando esté tibia, retira la piel.</li>\r\n\t<li>Llévala al refrigerador para poder filetearla finamente y que no se deshaga.</li>\r\n\t<li>Al tiempo, toma un bol y pon allí perejil picado, dientes de ajo picados, sal, pimienta y ají molido a gusto.</li>\r\n\t<li>Añade a esto aceite y vinagre.</li>\r\n\t<li>Revuelve.</li>\r\n\t<li>En el recipiente de presentación del plato, pon una porción de lengua y sobre ella la vinagreta, pon otra porción y así sucesivamente hasta que gane volumen.</li>\r\n\t<li>Guárdala en el refrigerador tapada con papel aluminio para que se concentre el aroma.</li>\r\n\t<li>Cinco días después estará lista con todos los ingredientes perfectamente compenetrados.</li>\r\n</ol>"
     },
@@ -868,10 +868,10 @@
       "preparationTime": "",
       "description": "El Butiá es un fruto que se da en la famosa palmera Butiá, de la que existen muchas especies. Un árbol que se da en una gran parte de la región latinoamericana y que, aunque se cultiva con fines comerciales, puede vérsele en distintas zonas fuera de las áreas de cultivo, en comunidades y ciudades, pues es una semilla muy común. Su fruto es aprovechado por los uruguayos para una gran cantidad de preparaciones tanto caseras como industriales pero, sobre todo, tradicionales, entre las que destaca el licor de Butiá, de una preparación bastante sencilla y de un gusto exquisito.",
       "ingredients": [
-        "1 kg. de buti&aacute;",
-        "1 kg. de az&uacute;car",
+        "1 kg. de butiá",
+        "1 kg. de azúcar",
         "1 lt. de agua",
-        "1/4 lt. de ca&ntilde;a blanca o grappa."
+        "1/4 lt. de caña blanca o grappa."
       ],
       "preparation": "<ol>\r\n\t<li>Las Butias maduras, colócalas en una olla.</li>\r\n\t<li>Agrega el kilo de azúcar y el litro de agua.</li>\r\n\t<li>Mejora el color de la preparación agregando clavo de olor o azúcar quemada. </li>\r\n\t<li>Deja enfriar cuando espese.</li>\r\n\t<li>Agrega luego la caña, 1/4 por litro de agua con butiá habiendo ya hervido.</li>\r\n\t<li>Luego embotéllalo y déjalo reposar al menos 2 meses antes de probarlo. </li>\r\n</ol>"
     },
@@ -908,7 +908,7 @@
         "Leche cantidad necesaria",
         "Sal",
         "Pimienta",
-        "Or&eacute;gano",
+        "Orégano",
         "Tomillo"
       ],
       "preparation": "<ol>\r\n\t<li>Quita al matambre las partes venosas duras.</li>\r\n\t<li>Córtarlo en trozos de aproximadamente 5 x 10 cms.</li>\r\n\t<li>Pónlo a marinar durante 12 o mas horas en una mezcla de leche, sal y condimentos.</li>\r\n\t<li>Al día siguiente colócalo en una fuente de horno que sirva para llevar a la mesa, de modo que queden en una o dos capas.</li>\r\n\t<li>Agrega a la leche de la marinada los huevos y el queso rallado. Revuelve ligeramente, y vuelca sobre el matambre.</li>\r\n\t<li>Pon en el horno suave y asa hasta que el matambre quede blando, agregando leche de modo que no se seque.</li>\r\n\t<li>Cuando el matambre esté a punto, deja dorar un poco.</li>\r\n\t<li>Sirve en la misma fuente.</li>\r\n</ol>"
@@ -970,8 +970,8 @@
       "ingredients": [
         "5 cl Vodka",
         "3 cl Vermouht bianco",
-        "1,5 cl Cura&ccedil;ao blue",
-        "6,5 cl jugo de anan&aacute;",
+        "1,5 cl Curaçao blue",
+        "6,5 cl jugo de ananá",
         "1 dash marraschino"
       ],
       "preparation": "<ol>\r\n\t<li>Dispón los ingredientes en orden y listos para vertir. </li>\r\n\t<li>En un vaso largo pon hielo. </li>\r\n\t<li>Vierte en el orden de tu preferencia los distintos componentes de la bebida.</li>\r\n\t<li>Repite la operación, las veces que sea necesario, según la cantidad de invitados que deseen la bebida.</li>\r\n</ol>"
@@ -1141,10 +1141,10 @@
         "1/3 taza mantequilla",
         "2/3 taza leche",
         "Para el relleno",
-        "8 lonchas queso de s&aacute;ndwich",
-        "8 lonchas jam&oacute;n cocido",
+        "8 lonchas queso de sándwich",
+        "8 lonchas jamón cocido",
         "2 claras de huevo",
-        "1 taza az&uacute;car glas"
+        "1 taza azúcar glas"
       ],
       "preparation": "<ol>\r\n\t<li>Estira la masa hasta que quede muy fina.</li>\r\n\t<li>Coloca un corte de la masa en un molde previamente engrasado.</li>\r\n\t<li>Pon el jamón y el queso encima y cubre con masa. Corta el borde sobrante con un cuchillo.</li>\r\n\t<li>Mezcla las claras con el azúcar sin batir y NO lo batas, el resultado debe ser una crema espesa.</li>\r\n\t<li>Vierte sobre la tarta la mezcla y lleva al horno previamente calentado a 200º Cpor espacio de 5 segs.</li>\r\n\t<li>Marca las porciones y vuelve a colocar la preparación en el horno y cocina hasta que esté dorada.</li>\r\n\t<li>Vuelve a marcar las porciones para cortar con facilidad.</li>\r\n</ol>"
     },
@@ -1517,16 +1517,16 @@
       "ingredients": [
         "1 Kg de mondongo (panza de res)",
         "cebolla",
-        "aj&iacute;",
+        "ají",
         "cilantro",
         "zanahoria",
-        "ceboll&iacute;n",
+        "cebollín",
         "papa",
         "caldo de carne",
         "arvejas",
         "pimienta",
         "sal",
-        "lim&oacute;n"
+        "limón"
       ],
       "preparation": "<ol card-sm=\"\" data-behavior=\"sortable\" data-record-list=\"  <li class=\" numbered-list__item=\"\" step=\"\">\r\n\t<li>Pon el mondongo en la olla a presión con la cebolla, el aji, el cilantro picado, sal y un poco de caldo de carne por 1 hora.</li>\r\n\t<li>En otra olla pon las especias a sofreír unos 2 minutos con un poco de aceite, una vez dorados agrega el caldo y agua, junto a la papa picaca en cubitos y la zanahoria con el cebollín entero.</li>\r\n\t<li>Una vez el mondongo cumpla la hora en la olla de presión, mezclalo con el contenido del otro recipiente.</li>\r\n\t<li>Saca la zanahoria y el cebollín y llévalos al procesador, después lo devuelves a la olla donde estás haciendo la preparación central.</li>\r\n\t<li>Agrega las arvejas, preferiblemente de lata porque ya vienen precocidas, y sirve, te recomendamos que lo comas con un poco de vinagre o limón. </li>\r\n</ol>"
     },

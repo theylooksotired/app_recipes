@@ -15,12 +15,12 @@ function initApp() {
     document.addEventListener('backbutton', function(){indexPage.goBack();}, false);
     if (AdMob) {
         AdMob.createBanner({
-            adId : db.admobBanner,
+            adId : db.site.admobBanner,
             position : AdMob.AD_POSITION.TOP_CENTER,
             autoShow : true
         });
         AdMob.prepareInterstitial({
-            adId : db.admobIntersitial,
+            adId : db.site.admobIntersitial,
             autoShow : true
         });
         AdMob.showInterstitial();

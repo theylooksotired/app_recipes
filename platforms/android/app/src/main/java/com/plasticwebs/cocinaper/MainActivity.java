@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.plasticwebs.cocinamex;
+package com.plasticwebs.cocinaper;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

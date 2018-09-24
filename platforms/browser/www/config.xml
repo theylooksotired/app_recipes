@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinamex" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina mexicana</name>
-    <description>Deliciosas recetas de comida y cocina tipica mexicana. Las recetas de la comida y cocina de Mexico son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinaper" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina peruana</name>
+    <description>Deliciosas recetas de comida y cocina tipica peruana. Las recetas de la comida y cocina de Peru son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <icon src="www/icon.png" />

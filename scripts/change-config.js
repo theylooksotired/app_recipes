@@ -12,12 +12,13 @@ const argv = require('minimist')(process.argv.slice(2));
 let apps = [{country: 'argentina', url: 'https://www.recetas-argentinas.com/json-phonegap'},
 			{country: 'bolivia', url: 'https://www.cocina-boliviana.com/json-phonegap'},
 			{country: 'brasil', url: 'https://www.cocina-brasilena.com/json-phonegap'},
+			{country: 'colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'},
 			{country: 'chile', url: 'https://www.cocina-chilena.com/json-phonegap'},
 			{country: 'cuba', url: 'https://www.cocina-cubana.com/json-phonegap'},
 			{country: 'ecuador', url: 'https://www.cocina-ecuatoriana.com/json-phonegap'},
 			{country: 'mexico', url: 'https://www.la-cocina-mexicana.com/json-phonegap'},
 			{country: 'uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
-            {country: 'colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'}];
+			{country: 'peru', url: 'https://www.comida-peruana.com/json-phonegap'}];
 
 let app = {};
 for (let i=0; i < apps.length; i++) {

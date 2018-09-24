@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinaboliviana" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina boliviana</name>
-    <description>Deliciosas recetas de comida y cocina tipica boliviana. Las recetas de la comida y cocina de Bolivia son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinachi" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina chilena</name>
+    <description>Deliciosas recetas de comida y cocina tipica chilena. Las recetas de la comida y cocina de Chile son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <icon src="www/icon.png" />

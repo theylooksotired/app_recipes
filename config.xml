@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinacubana" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina cubana</name>
-    <description>Deliciosas recetas de comida y cocina tipica cubana. Las recetas de la comida y cocina de Cuba son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinaecuador" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina ecuatoriana</name>
+    <description>Deliciosas recetas de comida y cocina tipica ecuatoriana. Las recetas de la comida y cocina de Ecuador son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="permissions" value="none" />

@@ -10,6 +10,7 @@ const argv = require('minimist')(process.argv.slice(2));
 // pgb clone 3302785 && pgb download 3302785 android
 
 let apps = [{country: 'argentina', url: 'https://www.recetas-argentinas.com/json-phonegap'},
+			{country: 'bolivia', url: 'https://www.cocina-boliviana.com/json-phonegap'},
 			{country: 'uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
             {country: 'colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'}];
 

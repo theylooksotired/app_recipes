@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinaarg" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina argentina</name>
-    <description>Deliciosas recetas de comida y cocina tipica argentina. Las recetas de la comida y cocina de Argentina son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinaboliviana" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina boliviana</name>
+    <description>Deliciosas recetas de comida y cocina tipica boliviana. Las recetas de la comida y cocina de Bolivia son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="permissions" value="none" />

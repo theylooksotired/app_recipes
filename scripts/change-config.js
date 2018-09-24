@@ -11,6 +11,7 @@ const argv = require('minimist')(process.argv.slice(2));
 
 let apps = [{country: 'argentina', url: 'https://www.recetas-argentinas.com/json-phonegap'},
 			{country: 'bolivia', url: 'https://www.cocina-boliviana.com/json-phonegap'},
+			{country: 'brasil', url: 'https://www.cocina-brasilena.com/json-phonegap'},
 			{country: 'uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
             {country: 'colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'}];
 

@@ -119,30 +119,6 @@ html {
 	background: rgba($colorMain, 0.4);
 	cursor: pointer;
 	@include borderRadius(3px);
-	&.categoryIntro-1 {
-		background: $color-1;
-	}
-	&.categoryIntro-2 {
-		background: $color-2;
-	}
-	&.categoryIntro-3 {
-		background: $color-3;
-	}
-	&.categoryIntro-4 {
-		background: $color-4;
-	}
-	&.categoryIntro-5 {
-		background: $color-5;
-	}
-	&.categoryIntro-6 {
-		background: $color-6;
-	}
-	&.categoryIntro-7 {
-		background: $color-7;
-	}
-	&.categoryIntro-8 {
-		background: $color-8;
-	}
 	.categoryIntroName {
 		padding: 5px 10px;
 		font-weight: bold;
@@ -438,7 +414,12 @@ html {
 	}
 }
 
-@for $i from 1 through 8 {
+@for $i from 1 through 32 {
+	.categoryIntro {
+		&.categoryIntro-#{$i} {
+			background: nth($colors, $i);
+		}
+	}
 	.pages-#{$i} {
 		.page {
 			background: nth($colors, $i);

@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.plasticwebs.cocinacubana;
+package com.plasticwebs.cocinaecuador;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

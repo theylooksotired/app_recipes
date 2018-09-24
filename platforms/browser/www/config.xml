@@ -1,24 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinamex" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina mexicana</name>
-    <description>Deliciosas recetas de comida y cocina tipica mexicana. Las recetas de la comida y cocina de Mexico son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinaecuador" version="4.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina ecuatoriana</name>
+    <description>Deliciosas recetas de comida y cocina tipica ecuatoriana. Las recetas de la comida y cocina de Ecuador son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
-    <preference name="android-targetSdkVersion" value="26" />
-    <preference name="permissions" value="none" />
-    <preference name="orientation" value="default" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="true" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
-    <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="disable-cursor" value="false" />
-    <preference name="android-installLocation" value="auto" />
-    <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <icon src="www/icon.png" />
     <icon gap:platform="ios" height="29" src="res/icons/ios/icon-small.png" width="29" />
@@ -58,24 +42,30 @@
     <gap:config-file parent="CFBundleShortVersionString" platform="ios">
         <string>4.0.8</string>
     </gap:config-file>
-    <plugin name="cordova-plugin-statusbar" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#D00000" />
-    <preference name="StatusBarStyle" value="lightcontent" />
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-    <engine name="android" spec="~8.0.0" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#D00000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
 </widget>

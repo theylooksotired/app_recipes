@@ -15,6 +15,7 @@ let apps = [{country: 'argentina', url: 'https://www.recetas-argentinas.com/json
 			{country: 'chile', url: 'https://www.cocina-chilena.com/json-phonegap'},
 			{country: 'cuba', url: 'https://www.cocina-cubana.com/json-phonegap'},
 			{country: 'ecuador', url: 'https://www.cocina-ecuatoriana.com/json-phonegap'},
+			{country: 'mexico', url: 'https://www.la-cocina-mexicana.com/json-phonegap'},
 			{country: 'uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
             {country: 'colombia', url: 'https://www.cocina-colombiana.com/json-phonegap'}];
 

@@ -19,11 +19,13 @@ function initApp() {
             position : AdMob.AD_POSITION.TOP_CENTER,
             autoShow : true
         });
+        /*
         AdMob.prepareInterstitial({
             adId : db.site.admobIntersitial,
             autoShow : true
         });
         AdMob.showInterstitial();
+        */
     }
 }
 

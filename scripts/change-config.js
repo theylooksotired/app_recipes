@@ -2,6 +2,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const exec = require('child_process').exec;
 const argv = require('minimist')(process.argv.slice(2));
+const version = '4.0.9';
 
 
 // APP id: 3302785
@@ -53,7 +54,7 @@ if (app.country) {
                 let result = data;
                 result = result.replace(/APP_TITLE/g, json.site.title);
                 result = result.replace(/APP_DESCRIPTION/g, json.site.description);
-                result = result.replace(/APP_VERSION/g, '4.0.8');
+                result = result.replace(/APP_VERSION/g, version);
                 result = result.replace(/APP_ID/g, json.site.id);
                 fs.writeFile('config.xml', result, 'utf8', function (err) {
                     if (err) return console.log(err);

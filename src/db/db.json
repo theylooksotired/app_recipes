@@ -1,14 +1,14 @@
 {
   "site": {
     "title": "Recetas de cocina hondureña",
-    "titleGeneric": "",
-    "titleCountry": "",
+    "titleGeneric": "Recetas de cocina",
+    "titleCountry": "Hondureña",
     "description": "Deliciosas recetas de comida y cocina tipica hondureña. Las recetas de la comida y cocina de Honduras son sencillas y faciles de preparar.",
     "url": "https://www.recetashonduras.com/",
     "version": "4.0.0",
-    "id": "",
-    "admobBanner": "",
-    "admobIntersitial": ""
+    "id": "com.plasticwebs.cocinahonduras",
+    "admobBanner": "ca-app-pub-7429223453905389/1576225000",
+    "admobIntersitial": "ca-app-pub-7429223453905389/4529691400"
   },
   "categories": [
     {

@@ -19,7 +19,9 @@ let apps = [{country: 'argentina', url: 'https://www.recetas-argentinas.com/json
 			{country: 'ecuador', url: 'https://www.cocina-ecuatoriana.com/json-phonegap'},
 			{country: 'mexico', url: 'https://www.la-cocina-mexicana.com/json-phonegap'},
 			{country: 'uruguay', url: 'https://www.cocina-uruguaya.com/json-phonegap'},
-			{country: 'peru', url: 'https://www.comida-peruana.com/json-phonegap'}];
+			{country: 'peru', url: 'https://www.comida-peruana.com/json-phonegap'},
+            {country: 'honduras', url: 'https://www.recetashonduras.com/json-phonegap'},
+            {country: 'panama', url: 'https://www.recetaspanama.com/json-phonegap'}];
 
 let app = {};
 for (let i=0; i < apps.length; i++) {

@@ -20,6 +20,7 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <icon src="www/icon.png" />
     <icon gap:platform="ios" height="29" src="res/icons/ios/icon-small.png" width="29" />
     <icon gap:platform="ios" height="58" src="res/icons/ios/icon-small@2x.png" width="58" />

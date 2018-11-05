@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.plasticwebs.cocinahonduras" version="4.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Recetas de cocina hondureña</name>
-    <description>Deliciosas recetas de comida y cocina tipica hondureña. Las recetas de la comida y cocina de Honduras son sencillas y faciles de preparar.</description>
+<widget id="com.plasticwebs.cocinapanama" version="4.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Recetas de cocina panameña</name>
+    <description>Deliciosas recetas de comida y cocina típica panameña. Las recetas de la comida y cocina de Panamá son sencillas y faciles de preparar.</description>
     <author email="info@plasticwebs.com" href="http://www.plasticwebs.com">Plasticwebs</author>
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="permissions" value="none" />
